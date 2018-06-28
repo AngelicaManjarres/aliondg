@@ -4,6 +4,9 @@
 }
 
 .arte img{
-	height: 100%;
 	padding-top: .7rem;
+}
+
+.retrato {
+	margin-top: .5rem;
 }
