@@ -1,0 +1,49 @@
+/*Columnas Imagenes Portafolio*/
+
+.columnas img {
+	margin-top: .6rem;
+	width: 100%;
+	transition: all .7s;
+}
+
+.columnas img:hover {
+	transform: scale(1.2);
+	border: 2px solid #333;
+	border-radius: 3px;
+	z-index: 30;
+}
+
+.col-md-4 {
+	padding: 0 .3rem;
+}
+
+/*Model del portafolio*/
+
+.model {
+	position: relative;
+}
+
+.model-texto {
+	background-color: rgba(0, 0, 0, .8);
+	color: #A7A4A3;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: .5rem;
+	padding-left: .7rem;
+	padding-bottom: .5rem;
+}
+
+.model-texto p {
+	margin-bottom: 0;
+}
+
+.model-texto-titulo {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.text-small {
+	font-size: .7rem;
+}

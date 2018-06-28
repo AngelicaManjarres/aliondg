@@ -1,0 +1,32 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #3E3E3E;
+	font-family: 'Aaargh';
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header-titulo {
+	display: none;
+}
+
+.titulo {
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	color: #D4822B;
+}
+
+.col-md-12 {
+	padding-right: 0;
+	padding-left: 0;
+}
