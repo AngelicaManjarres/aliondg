@@ -1,0 +1,40 @@
+.contacto-small {
+	display: none;
+}
+
+@media (max-width: 766px) {
+	.contacto-small {
+		margin-left: .7rem;
+		display: block;
+		color: #A7A4A3;
+	}
+	.contacto-small i {
+		margin-bottom: 1rem;
+	}
+	.contacto-small p {
+		margin-bottom: 0;
+	}
+
+	.titulo {
+		margin-top: 1rem;
+		margin-bottom: .7rem;
+
+	}
+}
+
+.footer {
+	margin-top: 1rem;
+	width: 100%;
+	background-color: #2C2C2C;
+	padding: .5rem 0;
+}
+
+.footer p{
+	color: #A7A4A3;
+	text-align: center;
+	margin: 0;
+}
+
+.derechos-autor {
+	font-size: 1.3rem;
+}
